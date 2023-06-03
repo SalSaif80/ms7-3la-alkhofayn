@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,span,p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.accordion-body {
+    padding: 20px 0px !important;
+}
+
+
+
+.card-header {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    margin-bottom: 0;
+    
+    
+    color: #00052e;
+}
+
+.card-header:first-child {
+    border-radius: 0px 0px 20px 20px !important;
+    background: #76767636;
+    border-bottom: 2px solid rgba(36, 36, 36, 0.205);
+}
+
+.card{
+    border: 2px solid rgba(36, 36, 36, 0.205);
+    
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 30px !important;
+}
+
+.alertify-notifier.ajs-right .ajs-message.ajs-visible {
+    right: 100%;
+    
+    text-align: center;
+    
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 397px) {
+    p.visitors {
+        width: 157px;
+        text-align: center;
+    }
+}
