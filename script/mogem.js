@@ -23,8 +23,6 @@ if(localStorage.ms7ArrayStorage != null){
 }
 
 
-
-
 let counter //use this to increase the counter in ID in new object 
 
 
