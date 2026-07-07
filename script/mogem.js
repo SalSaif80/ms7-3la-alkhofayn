@@ -24,8 +24,6 @@ if(localStorage.ms7ArrayStorage != null){
 
 let counter //use this to increase the counter in ID in new object 
 
-
-
 function show_data_on_the_table(){
     document.getElementById('tableBody').innerHTML = ''
     counter = 0;
